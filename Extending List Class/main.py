@@ -23,6 +23,7 @@ class Stack(list): #extend the list class..
         
     def size(self):
         return len(self)
+    
 # override the insert function coz we don't want to permit insert capability in our stack   
     def insert(self,index,data):
         raise AttributeError("no attribute 'insert' in Stack!")
